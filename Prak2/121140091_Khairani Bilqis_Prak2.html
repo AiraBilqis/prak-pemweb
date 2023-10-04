@@ -1,0 +1,99 @@
+<!-- by KHAIRANI BILQIS - 121140091 -->
+<!-- Praktikum Pemrograman Web RB - Tugas 2 -->
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="head">
+            <img src="https://id-live-01.slatic.net/p/5986d49b277dd8a5728c6d9e7e916811.jpg" alt="Gambar Kucing Imut" class="gambar">
+
+            <div class="side">
+                <h1>Khairani Bilqis</h1>
+                <h3>Mahasiswa Semester 5</h3>
+            </div>
+        </header>
+
+        <nav class="navbar">
+            <li class="menu"><a href="https://www.itera.ac.id/">Kampus Saya</a></li>
+            <li class="menu"><a href="http://if.itera.ac.id/">Prodi Saya</a></li>
+            <li class="menu"><a href="https://github.com/AiraBilqis">GitHub Saya</a></li>
+        </nav>
+
+        <section class="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Biasa dipanggil Bilqis, saya mahasiswa dari program studi Teknik Informatika di Institut Teknologi Sumatera (ITERA) angkatan 2021. Tertarik dengan pengembangan web dan hal yang berhubungan dengan <i>design</i>. Hobi membaca, main dan rebahan. Ketika saya merasa lelah dan jatuh dalam berkembang, saya selalu melihat video-video motivasi dari para motivator yang selalu memberikan saya semangat kembali. Di bawah ini klip favorit saya.</p>
+
+            <div>
+                <figure>
+                    <video src="video_motivasi.mp4" width="500px" controls></video>
+                    <figcaption>Video Motivasi</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="pengalaman">
+            <h2>Pengalaman Kepanitiaan</h2>
+            <table border="1px" align="center">
+                <thead>
+                    <tr>
+                        <th rowspan="2">No</th>
+                        <th rowspan="2">Posisi</th>
+                        <th rowspan="2">Nama Kegiatan</th>
+                        <th colspan="2">Periode Waktu</th>
+                    </tr>
+                    <tr>
+                        <th>Mulai</th>
+                        <th>Selesai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Sekretaris II</td>
+                        <td>Riuh Wisuda HME & HMIF</td>
+                        <td>Oktober 2022</td>
+                        <td>Oktober 2022</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Staff Divisi Tugas</td>
+                        <td>First Gathering Informatika 2022</td>
+                        <td>September 2022</td>
+                        <td>September 2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="form">
+            <form action="jawaban.php" method="post">
+                <h2>Hubungi Saya:</h2>
+                <label for="email">email</label>
+                <input type="text" id="email">
+
+                <p>Tertarik untuk sharing info?</p>
+                <input type="radio" name="soal_b">Iya<br>
+                <input type="radio" name="soal_b">Tidak<br>
+
+                <h2>Sharing info tentang apa?</h2>
+                <input type="checkbox" name="a" id="a" value="1">Web<br>
+                <input type="checkbox" name="a" id="a" value="2">Design<br>
+                <input type="checkbox" name="a" id="a" value="3">Pengalaman<br><br>
+                <button class="btn" type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Copyright 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
