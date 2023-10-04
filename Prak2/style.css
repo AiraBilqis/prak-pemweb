@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    background-color: lightgray;
+}
+
+.head{
+    padding: 20px;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    justify-content: start;
+    align-items: center;
+}
+
+.gambar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.side{
+    margin-left: 20px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    
+    background-color: gray;
+}
+
+.menu{
+    list-style: none;
+    padding: 10px;
+}
+
+.tentang{
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tentang h2{
+    color: rgb(22, 36, 36);
+}
+
+.tentang p{
+    text-align: justify;
+}
+
+.tentang div{
+    display: flex;
+    justify-content: center;
+}
+
+.tentang figure video{
+    width: 400px;
+}
+
+.pengalaman{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pengalaman h2{
+    color: rgb(22, 36, 36);
+}
+
+.pengalaman table{
+    width: 100%;
+}
+
+table{
+    border-color: gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead{
+    background-color: dimgrey;
+}
+
+th,td{
+    padding: 3px 5px;
+}
+
+.form{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form h2{
+    color: rgb(22, 36, 36);
+}
+
+.btn{
+    background-color: darkblue;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+footer{
+    padding: 5px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+}
