@@ -1,0 +1,150 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: coral;
+    color: white;
+    padding: 0px 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigasi ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigasi ul li{
+    margin: 15px;
+}
+
+nav button{
+    background-color: blanchedalmond;
+    color: black;
+    border-color: rgb(173, 173, 173);
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.about{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px coral;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data{
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.data button{
+    background-color: blueviolet;
+    color: white;
+    border-color: rgb(173, 173, 173);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about img{
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+}
+
+.pengalaman{
+    background-color: white;
+    border: solid 1px coral;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.pengalaman h2{
+    color: rgb(22, 36, 36);
+}
+
+.pengalaman table{
+    width: 100%;
+    border-color: gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead{
+    background-color: dimgrey;
+}
+
+th,td{
+    padding: 3px 5px;
+}
+
+.project{
+    background-color: white;
+    border: solid 1px coral;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.container-box{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+}
+
+@media(max-width: 768px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+    
+    .navigasi ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0px;
+    }    
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about img{
+        margin-top: 20px;
+    }
+    
+    .pengalaman table{
+        overflow-x: scroll;
+    }
+    
+    .container-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
