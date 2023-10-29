@@ -29,21 +29,3 @@ if (inputNumber <= 0) {
     console.log(`Jumlah bilangan ganjil: ${jumlahGanjil}`);
     console.log(`Jumlah bilangan genap: ${jumlahGenap}`);
 }
-
-
-
-// // = assignment operator
-// let a = 10;
-
-// // == comparison operator tanpa melihat tipe data
-// if(10 == '10'){ // jika a sama dengan 10
-//     console.log("a sama dengan 10");
-// }
-
-// // === strict comparison / equality operator melihat tipe data
-// if(a === '10'){
-//     console.log("if : a sama dengan 10");
-// } else if(a === 10){
-//     consoe.log("else if : a sama dengan 10");
-// }
-
