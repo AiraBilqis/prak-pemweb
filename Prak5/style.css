@@ -1,0 +1,124 @@
+/* by KHAIRANI BILQIS - 121140091 */
+/* Praktikum Pemrograman Web RB - Tugas 5 */
+
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(79, 51, 176, 1), rgb(235, 47, 181));
+    padding-top: 30px;
+}
+
+.calculator{
+    background-color: #f1f3f5;
+    box-shadow: inset 5px 5px 12px rgb(252, 250, 246), 5px 5px 12px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(24, 18, 68, 0.05);
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    background-color: #f1f3f5;
+    box-shadow: inset 2px 3px 11px rgba(0, 0, 0, 0.3), 5px 5px 12px rgb(252, 250, 246);
+    height: 25%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.display #inputBox{
+    background-color: transparent;
+    outline: none;
+    width: 90%;
+    border: none;
+    font-size: 35px;
+    text-align: end;
+}
+
+.button-container{
+    width: 100%;
+    height: 70%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tombol{
+    background-color: #87d5ff;
+    box-shadow: inset 5px 5px 12px #bce7ff, 5px 5px 12px rgba(0, 0, 0, 0.3);
+    color: #0e6ea1;
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tombol:hover{
+    transform: scale(0.9);
+}
+
+.tombol-kiri{
+    width: 80%;
+    height: 100%;
+    margin-left: -10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tombol-kanan{
+    margin: 0px -15px 0px -5px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#clear{
+    background-color: #ff6872;
+    box-shadow: inset 5px 5px 12px #fd9ea4, 5px 5px 12px rgba(0, 0, 0, 0.3);
+    color: #9e0d16;
+    font-weight: bold;
+}
+
+#operator{
+    background-color: #fd5ff5;
+    box-shadow: inset 5px 5px 12px #ffa7fb, 5px 5px 12px rgba(0, 0, 0, 0.3);
+    color: #8d0088;
+    font-weight: bold;
+}
+
+#plusMinus{
+    background-color: #fd5ff5;
+    box-shadow: inset 5px 5px 12px #ffa7fb, 5px 5px 12px rgba(0, 0, 0, 0.3);
+    color: #8d0088;
+}
+
+#decimal{
+    background-color: #fd5ff5;
+    box-shadow: inset 5px 5px 12px #ffa7fb, 5px 5px 12px rgba(0, 0, 0, 0.3);
+    color: #8d0088;
+    font-weight: bold;
+}
+
+#equal{
+    background-color: #32ffcf;
+    box-shadow: inset 5px 5px 12px #adf9e7, 5px 5px 12px rgba(0, 0, 0, 0.3);
+    color: #11755e;
+}
