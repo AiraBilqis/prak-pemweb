@@ -1,0 +1,50 @@
+<!-- by KHAIRANI BILQIS - 121140091 -->
+<!-- Praktikum Pemrograman Web RB - Tugas 5 -->
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas Pertemuan 5 | Kalkulator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="inputBox" value="0" placeholder="0" disabled>
+        </div>
+
+        <div class="button-container">
+            <div class="tombol-kiri">
+                <button type="button" class="tombol" id="clear" onclick="display('clear')">AC</button>
+                <button type="button" class="tombol" id="operator" onclick="display('del')">DEL</button>
+                <button type="button" class="tombol" id="operator" onclick="display('%')">%</button>
+                <button type="button" class="tombol" id="number" onclick="display('7')">7</button>
+                <button type="button" class="tombol" id="number" onclick="display('8')">8</button>
+                <button type="button" class="tombol" id="number" onclick="display('9')">9</button>
+                <button type="button" class="tombol" id="number" onclick="display('4')">4</button>
+                <button type="button" class="tombol" id="number" onclick="display('5')">5</button>
+                <button type="button" class="tombol" id="number" onclick="display('6')">6</button>
+                <button type="button" class="tombol" id="number" onclick="display('1')">1</button>
+                <button type="button" class="tombol" id="number" onclick="display('2')">2</button>
+                <button type="button" class="tombol" id="number" onclick="display('3')">3</button>
+                <button type="button" class="tombol" id="plusMinus" onclick="display('plusMinus')">&#xB1;</button>
+                <button type="button" class="tombol" id="number" onclick="display('0')">0</button>
+                <button type="button" class="tombol" id="decimal" onclick="display('.')">.</button>
+            </div>
+    
+            <div class="tombol-kanan">
+                <button type="button" class="tombol" id="operator" onclick="display('/')">&divide;</button>
+                <button type="button" class="tombol" id="operator" onclick="display('*')">&times;</button>
+                <button type="button" class="tombol" id="operator" onclick="display('-')">&minus;</button>
+                <button type="button" class="tombol" id="operator" onclick="display('+')">&plus;</button>
+                <button type="button" class="tombol" id="equal" onclick="display('=')">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
